@@ -6,26 +6,8 @@
 
 ## Architecture
 
-```
-                        ┌─────────────────────────────────────────────┐
-                        │              AWS Region: us-east-1           │
-Internet ──────────────►│                                              │
-                        │  ┌──────────────────────────────────────┐   │
-                        │  │               VPC 10.0.0.0/16        │   │
-                        │  │                                       │   │
-                        │  │  ┌────────────┐  ┌────────────┐      │   │<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0dbf9156-4a6f-4074-811e-512323cec2c8" />
+```<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f66b0264-ebc9-4f14-9ab3-1e2bc2bf7bc9" />
 
-                        │  │  │  AZ-a      │  │  AZ-b      │      │   │
-                        │  │  │ Public /24 │  │ Public /24 │      │   │
-                        │  │  │  [ALB]─────┼──┼──[ALB]    │      │   │
-                        │  │  │            │  │            │      │   │
-                        │  │  │ Private/24 │  │ Private/24 │      │   │
-                        │  │  │  [EC2]     │  │  [EC2]     │      │   │
-                        │  │  └────────────┘  └────────────┘      │   │
-                        │  │                                       │   │
-                        │  │  NAT GW (public) → Internet for EC2  │   │
-                        │  └──────────────────────────────────────┘   │
-                        └─────────────────────────────────────────────┘
 ```
 
 ---

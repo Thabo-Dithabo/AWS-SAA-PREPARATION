@@ -5,8 +5,8 @@
 ---
 
 ## Architecture
+<img width="979" height="641" alt="image" src="https://github.com/user-attachments/assets/2569951e-534a-47b2-839e-f270eebb2b5d" />
 
-```<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f66b0264-ebc9-4f14-9ab3-1e2bc2bf7bc9" />
 
 ```
 
